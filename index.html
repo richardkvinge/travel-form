@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Peacock Airlines</title>
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>Welcome to Peacock Airlines!</header>
+        <div>
+            <span id="info">Please submit the following information:</span><br><br>
+            <form name="travelForm">
+                First Name: <input type="text" name="firstName" placeholder="First Name" required /><br>
+                Last Name: <input type="text" name="lastName" placeholder="Last Name" required /><br>
+                Age: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="number" name="age" required /><br>
+                Gender:
+                Male <input type="radio" name="gender" value="Male" />
+                Female <input type="radio" name="gender" value="Female" /><br>
+                Location Traveling To: <select name="location" required>
+                    <option value="Portland, OR">Portland, OR</option>
+                    <option value="El Paso, TX">El Paso, TX</option>
+                    <option value="Kansas City, MO">Kansas City, MO</option>
+                </select><br>
+                Dietary Restrictions (Check all that apply):<br>
+                Vegetarian <input type="checkbox" name="diet" value="Vegetarian" /><br>
+                Kosher <input type="checkbox" name="diet" value="Kosher" /><br>
+                Lactose Free <input type ="checkbox" name="diet" value="Lactose Free" /><br><br>
+                <button>Submit</button>
+
+            </form>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
